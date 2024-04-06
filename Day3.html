@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="./node_modules/bootstrap/dist/css/bootstrap.min.css"
+    />
+    <style>
+        div{
+            color: white;
+            font-size: 10px;
+            text-align: center;
+        }
+    </style>
+  </head>
+  <body>
+    <div class="container bg-secondary-subtle mt-5 position-relative" style="height: 300px;">
+        <div class="bg-danger  position-absolute top-0 start-0 " style="width: 50px; height: 50px;">T-0 L-0</div>
+        <div class="bg-dark  position-absolute top-0 start-50 translate-middle-x" style="width: 50px; height: 50px;">T-0 L-50</div>
+        <div class="bg-dark  position-absolute top-0 end-0 " style="width: 50px; height: 50px;">T-0 R-0</div>
+        <div class="bg-dark  position-absolute start-0 top-50 translate-middle-y" style="width: 50px; height: 50px;">T-50 L-0</div>
+        <div class="bg-dark  position-absolute start-50 top-50 translate-middle" style="width: 50px; height: 50px;">T-50 L-50</div>
+        <div class="bg-dark  position-absolute top-50 end-0 translate-middle-y" style="width: 50px; height: 50px;">T-50 R-0</div>
+        <div class="bg-dark  position-absolute  bottom-0 start-0" style="width: 50px; height: 50px;">B-0 L-0</div>
+        <div class="bg-dark  position-absolute bottom-0 start-50 translate-middle-x" style="width: 50px; height: 50px;">B-0 L-50</div>
+        <div class="bg-dark  position-absolute bottom-0 end-0" style="width: 50px; height: 50px;">B-0 R-50</div>
+    </div>
+</body>
+  <script src="./node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+</html>
